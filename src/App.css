@@ -10,7 +10,13 @@ body {
 
 h1 {
   font-family: 'Bigelow Rules';
-  font-size: 72px;
+  font-size: 5rem;
   color: #0ccac4;
   letter-spacing: 0.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  h1  {
+    font-size: 3rem;
+  }
 }
